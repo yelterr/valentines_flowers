@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  position: absolute;
+  inset: 0;
+}
+
+button {
+  position: absolute;
+  z-index: 10;
+}
+
+button img {
+  width: 30px;
+  height: auto;
+}
+
+/* ejemplo de posiciones */
+#btn1 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  bottom: 20px;
+  left: 0px;
+}
+
+#btn2 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  bottom: 20px;
+  left: 0px;
+}
+
+#btn3 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  bottom: 20px;
+  left: 0px;
+}
+
+#btn4 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  bottom: 20px;
+  left: 0px;
+}
+
+#submit {
+  bottom: 20px;
+  left: 0px;
+}
+
+.selected {
+  /*background-image: url("Selected.png"); */
+  /* background-color: lightgreen; */
+}
+
+/*
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  
+  background-size: cover;
+  border: none;
+}
+
+.icon-btn.selected {
+  
+} */
+
+canvas.disabled {
+  pointer-events: none;
+}
